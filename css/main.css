@@ -1,0 +1,52 @@
+body{
+    background-image: url(../imgs/9155454.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1,h3 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#dac1f4;
+}
+
+.row>* {
+    padding-right: 0px;
+    padding-left: 0px;
+    background: #6b2cae;
+}
+
+.signupName ,
+.signupEmail,
+.signupPassword,
+.signinEmail,
+.signinPassword,
+.btn{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.signupName:focus ,
+.signupEmail:focus,
+.signupPassword:focus,
+.signinEmail:focus,
+.signinPassword:focus
+{
+    outline: 0;
+    box-shadow: 0 0 0 .20rem #2C2BCA;
+}  
+.btn:hover{
+    background-color: #b57cf3;
+    color: #6b2cae;
+}
+.Signin,
+.signUp{
+    color: black;
+}
+.Signin:hover,
+.signUp:hover{
+    color:#b57cf3;
+}

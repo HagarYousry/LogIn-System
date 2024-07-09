@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- google font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+         rel="stylesheet" />
+     <!-- bootstrap  -->
+     <link rel="stylesheet" href="../css/bootstrap.min.css" />
+     <!-- main css  -->
+     <link rel="stylesheet" href="../css/main.css" />
+    <title>Sign In</title>
+</head>
+<body>
+
+<div class="container min-vh-100 d-flex align-items-center justify-content-center ">
+    <div class="row form-content justify-content-center w-100 m-5">
+        <div class="col-md-12">
+            <div class="inner text-center">
+                <h1 class="mt-5">Smart Login System</h1>
+                <form id="registerloginForm">
+                    <input id="signinEmail" class="signinEmail my-3 w-75" placeholder="Enter your email" type="email" />
+                    <input id="signinPassword" class="signinPassword my-3 w-75" placeholder="Ex: Password123@" type="password" />
+                    <p id="incorrect" class="text-danger d-none">incorrect email or password</p>
+                    <button class="btn w-50 my-3 " id="signinBtn" >
+                        Sign In
+                    </button>
+                </form>
+                <p class="text-dark mb-5">
+                    Don’t have an account? <a class="SignUp" href="../index.html">Sign Up</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
